@@ -5,6 +5,7 @@ namespace BigNumbersMVC.Controllers
 {
     public class LogsController : Controller
     {
+        // provided by Unity
         private ILogReader reader;
 
         public LogsController(ILogReader reader)
