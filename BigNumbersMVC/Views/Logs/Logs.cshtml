@@ -1,0 +1,14 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "Logs";
+}
+
+<h2>@ViewBag.Title</h2>
+@foreach (var str in Model)
+{
+    @str <br/>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
